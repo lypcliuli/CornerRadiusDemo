@@ -16,7 +16,7 @@
 /** 不推荐的做法，当一个页面只有少量圆角图片时才推荐使用(4角全切)  */
 - (void)cornerByLayer:(UIView *)view radiusValue:(CGFloat)radiusValue;
 
-/** 贝塞尔曲线切割圆角(4角全切)（不推荐，掉帧严重）  */
+/** 贝塞尔曲线切割圆角(4角全切) */
 - (void)cornerByBezierShapeLayer:(UIView *)view radiusValue:(CGFloat)radiusValue;
 
 
